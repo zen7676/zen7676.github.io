@@ -16,7 +16,7 @@
 title: Tech blog
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  機械学習、数学や物理など勉強したことについて書きます。
+  数学、物理、哲学、経済など勉強したことについて書きます。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
@@ -24,7 +24,8 @@ github_username:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme : minima
+#theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
