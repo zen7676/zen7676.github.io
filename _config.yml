@@ -24,11 +24,26 @@ github_username:
 
 # Build settings
 markdown: kramdown
-theme : minima
+#theme : minima
 #theme: jekyll-theme-cayman
+#theme : jekyll-theme-midnight
+remote_theme: "mmistakes/minimal-mistakes@4.19.3"
 plugins:
   - jekyll-feed
-
+  - jekyll-include-cache
+  
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
