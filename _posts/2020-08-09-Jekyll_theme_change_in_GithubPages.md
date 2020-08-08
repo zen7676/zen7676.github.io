@@ -35,7 +35,7 @@ plugins:
 ```
 (4)bundleコマンドによってアップデート
 ```
-bundle
+bundle update
 ```
 以上で、minimal-mistakesのテーマをJekyllに導入することができます。ローカルでビルドする場合は、
 ```

@@ -2,10 +2,10 @@
 layout: single
 title:  "物体検知パイプラインをEnd to Endに学習する(論文メモ)"
 date:   2020-07-26 22:45:00 +0900
-categories: math
+categories: artifical-intelligence computer-vision
 ---
 "End-to-End Object Detection with Transformers"  
-Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko  
+Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov and Sergey Zagoruyko  
 https://arxiv.org/abs/2005.12872v3
 
 従来の深層学習による物体検出において、Bipertite matching lossをロス関数とするTransformerを使うことによって、Anchorの設計やNMS(Non Maximum Suppression)といったヒューリスティックな部分をなくし、End-to-Endに学習可能にした、という論文です。
