@@ -14,7 +14,7 @@ Jekyllのデフォルトテーマ(minima)を[minimal-mistakes](https://github.co
 ## 手順
 [GitHubPagesのドキュメント](https://docs.github.com/ja/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll)によると、GitHub Pagesでのテーマ変更は、①[サポートされているテーマ](https://pages.github.com/themes/)か、②リモートテーマを使う方法があると書かれていますが、「①サポートされているテーマ」は、テーマの選択肢が少なく、minima以外のテーマはブログには適していませんので、「②リモートテーマ」を使うのが良いと思います。  
 今回は、[minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)に変更することにしました。  
-基本的には[Githubのページ](https://github.com/mmistakes/minimal-mistakes)に従うだけです。
+基本的には[Githubのページ](https://github.com/mmistakes/minimal-mistakes)に従うだけです。  
 (1)Gemfileにjekyll-include-cacheプラグインを追加
 ```
 group :jekyll_plugins do
